@@ -1,0 +1,88 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 96px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 50px;
+  display: block;
+
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.information {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.information a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  padding: 20px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.about {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 20px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.homepage {
+  display: block;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.coloumn {
+  display: flex;
+  padding: 15px;
+  margin: 30px 0;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 20px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
